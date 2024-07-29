@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  width: 300px;
+  text-align: center;
+  font-family: system-ui;
+  font-weight: bold;
+  color: white;
+}
+.head {
+  background-color: #f25;
+  padding: 10px;
+  margin: 5px 0;
+  font-size: 20px;
+}
+.head span {
+  color: #fa0;
+}
+.game {
+}
+.game div {
+  width: 90px;
+  height: 90px;
+  background-color: #f25;
+  float: left;
+  margin: 5px;
+  transition: background-color 0.5s;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game div:hover {
+  background-color: black;
+  cursor: pointer;
+}
